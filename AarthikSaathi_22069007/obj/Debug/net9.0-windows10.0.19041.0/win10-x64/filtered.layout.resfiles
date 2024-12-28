@@ -12,7 +12,9 @@ wwwroot\index.html.br
 wwwroot\css\bootstrap\bootstrap.min.css.br
 wwwroot\AarthikSaathi_22069007.styles.css.br
 wwwroot\css\app.css.br
+wwwroot\data\users.json.br
 wwwroot\css\app.css.gz
+wwwroot\data\users.json.gz
 OpenSans-Regular.ttf
 appicon.ico
 appiconLargeTile.scale-100.png
@@ -76,4 +78,6 @@ AboutAssets.txt
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\data\users.json
 wwwroot\index.html
+wwwroot\NewFolder\Aarthik Saathi.png

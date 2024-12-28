@@ -34353,24 +34353,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aachal\\.nuget\\packages\\": {},
+    "C:\\Users\\manis\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aachal\\source\\repos\\AarthikSaathi_22069007\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
+      "projectUniqueName": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
       "projectName": "AarthikSaathi_22069007",
-      "projectPath": "C:\\Users\\Aachal\\source\\repos\\AarthikSaathi_22069007\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
-      "packagesPath": "C:\\Users\\Aachal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aachal\\source\\repos\\AarthikSaathi_22069007\\AarthikSaathi_22069007\\obj\\",
+      "projectPath": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
+      "packagesPath": "C:\\Users\\manis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aachal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\manis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
