@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageTransactions.razor",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T13:46:50.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAmZmZmZkdwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T13:39:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddTransaction.razor",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
+              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T13:44:48.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T13:13:21.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

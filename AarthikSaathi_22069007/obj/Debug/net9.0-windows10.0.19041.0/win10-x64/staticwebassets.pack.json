@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AarthikSaathi_22069007.styles.css",
+      "Id": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AarthikSaathi_22069007.styles.css",
       "PackagePath": "staticwebassets\\AarthikSaathi_22069007.styles.css"
     },
     {
-      "Id": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\NewFolder\\Aarthik Saathi.png",
+      "Id": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\NewFolder\\Aarthik Saathi.png",
       "PackagePath": "staticwebassets\\NewFolder\\Aarthik Saathi.png"
     },
     {
-      "Id": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
+      "Id": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
       "PackagePath": "staticwebassets\\data\\users.json"
     },
     {
-      "Id": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\index.html",
+      "Id": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

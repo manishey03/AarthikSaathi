@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj": {}
+    "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj": {
+    "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
+        "projectUniqueName": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
         "projectName": "AarthikSaathi_22069007",
-        "projectPath": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
+        "projectPath": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj",
         "packagesPath": "C:\\Users\\manis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manis\\Desktop\\AD\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\",
+        "outputPath": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
