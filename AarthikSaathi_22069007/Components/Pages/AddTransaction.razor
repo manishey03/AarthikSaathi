@@ -3,63 +3,127 @@
 @using AarthikSaathi_22069007.Utilities
 @inject NavigationManager NavigationManager
 
-<div style="max-width: 600px; margin: auto; padding: 20px; font-family: Arial, sans-serif; background: #f9f9f9; border-radius: 12px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
-    <h2 style="text-align: center; color: #2D9CFD;">Add Transaction</h2>
+<div style="width: 100%; min-height: 100vh; background-color: #f4f4f4; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Arial, sans-serif;">
+    <div style="background-color: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); width: 60%; text-align: center;">
+        <h2 style="color: #2D9CFD;">Add Transaction</h2>
+        <p>Fill in the details to record a new transaction.</p>
 
-    <div style="margin-bottom: 20px;">
-        <label for="transactionType" style="font-size: 14px; color: #555;">Transaction Type</label>
-        <select id="transactionType" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; background: #fff; margin-top: 5px;">
-            <option value="credit">Credit</option>
-            <option value="debit">Debit</option>
-            <option value="debt">Debt</option>
-        </select>
+        <!-- Transaction Form -->
+        <div style="margin-top: 20px;">
+            <label for="transactionType">Transaction Type</label>
+            <select @bind="TransactionType" id="transactionType" style="width: 100%; padding: 10px;">
+                <option value="credit">Credit</option>
+                <option value="debit">Debit</option>
+                <option value="debt">Debt</option>
+            </select>
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="amount">Amount</label>
+            <input @bind="Amount" type="number" id="amount" placeholder="Enter amount" style="width: 100%; padding: 10px;" />
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="tags">Tags</label>
+            <input @bind="Tags" type="text" id="tags" placeholder="e.g., groceries, rent" style="width: 100%; padding: 10px;" />
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="notes">Notes</label>
+            <textarea @bind="Notes" id="notes" placeholder="Add additional details..." style="width: 100%; height: 80px; padding: 10px;"></textarea>
+        </div>
+
+        <div style="margin-top: 30px;">
+            <button @onclick="PerformTransaction" style="padding: 12px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 8px;">Add Transaction</button>
+        </div>
+
+        <!-- Success/Error Messages -->
+        @if (!string.IsNullOrEmpty(SuccessMessage))
+        {
+            <p style="color: green; margin-top: 20px;">@SuccessMessage</p>
+        }
+        @if (!string.IsNullOrEmpty(ErrorMessage))
+        {
+            <p style="color: red; margin-top: 20px;">@ErrorMessage</p>
+        }
     </div>
-
-    <div style="margin-bottom: 20px;">
-        <label for="amount" style="font-size: 14px; color: #555;">Amount</label>
-        <input type="number" id="amount" placeholder="Enter amount" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; background: #fff; margin-top: 5px;" />
-    </div>
-
-    <div style="margin-bottom: 20px;">
-        <label for="tags" style="font-size: 14px; color: #555;">Tags</label>
-        <input type="text" id="tags" placeholder="e.g., groceries, rent" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; background: #fff; margin-top: 5px;" />
-    </div>
-
-    <div style="margin-bottom: 20px;">
-        <label for="notes" style="font-size: 14px; color: #555;">Notes</label>
-        <textarea id="notes" placeholder="Add additional details..." style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; background: #fff; margin-top: 5px; height: 100px;"></textarea>
-    </div>
-
-    <button style="width: 100%; padding: 14px; background: #2D9CFD; color: white; font-size: 16px; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); transition: 0.3s;">
-        Add Transaction
-    </button>
 </div>
 
 @code {
-    private string Username { get; set; }
-    private string Password { get; set; }
-    private string ErrorMessage { get; set; }
+    private string TransactionType { get; set; } = "credit";
+    private string Username { get; set; } = "User";
+    private decimal Amount { get; set; }
+    private string Tags { get; set; } = string.Empty;
+    private string Notes { get; set; } = string.Empty;
+    private string SuccessMessage { get; set; } = string.Empty;
+    private string ErrorMessage { get; set; } = string.Empty;
 
-    private async Task PerformLogin() // Renamed from Login to
+    protected override void OnInitialized()
     {
+        if (UserSession.CurrentUser != null)
+        {
+            Username = UserSession.CurrentUser.Username;
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+    }
+
+    private async Task PerformTransaction()
+    {
+        if (Amount <= 0)
+        {
+            ErrorMessage = "Amount must be greater than zero.";
+            SuccessMessage = string.Empty;
+            return;
+        }
+
+        if (TransactionType == "debit" && !await HasSufficientBalance())
+        {
+            ErrorMessage = "Insufficient balance for this debit transaction.";
+            SuccessMessage = string.Empty;
+            return;
+        }
+
         try
         {
-            var users = await JsonFileHandler.ReadDataAsync<User>("wwwroot/data/users.json");
-            var user = users.FirstOrDefault(u => u.Username == Username && u.Password == Password);
+            var transaction = new Transaction
+                {
+                    TransactionId = Guid.NewGuid().GetHashCode(),
+                    UserId = UserSession.CurrentUser!.UserId,
+                    TransactionType = TransactionType,
+                    Amount = Amount,
+                    Tags = Tags.Split(',').Select(tag => tag.Trim()).ToList(),
+                    Notes = Notes,
+                    TransactionDate = DateTime.Now,
+                    DueDate = TransactionType == "debt" ? DateTime.Now.AddMonths(1) : null
+                };
 
-            if (user != null)
-            {
-                ErrorMessage = string.Empty;
-                NavigationManager.NavigateTo("/");
-            }
-            else
-            {
-                ErrorMessage = "Invalid username or password.";
-            }
+            var transactions = await JsonFileHandler.ReadDataAsync<Transaction>("wwwroot/data/transactions.json");
+            transactions.Add(transaction);
+            await JsonFileHandler.WriteDataAsync("wwwroot/data/transactions.json", transactions);
+
+            // Reset form fields
+            TransactionType = "credit";
+            Amount = 0;
+            Tags = string.Empty;
+            Notes = string.Empty;
+            ErrorMessage = string.Empty;
+            SuccessMessage = "Transaction added successfully!";
         }
         catch (Exception ex)
         {
-            ErrorMessage = "An error occurred: " + ex.Message;
+            ErrorMessage = $"An error occurred: {ex.Message}";
+            SuccessMessage = string.Empty;
         }
+    }
+
+    private async Task<bool> HasSufficientBalance()
+    {
+        var transactions = await JsonFileHandler.ReadDataAsync<Transaction>("wwwroot/data/transactions.json");
+        var userTransactions = transactions.Where(t => t.UserId == UserSession.CurrentUser!.UserId);
+
+        var totalCredits = userTransactions.Where(t => t.TransactionType == "credit").Sum(t => t.Amount);
+        var totalDebits = userTransactions.Where(t => t.TransactionType == "debit").Sum(t => t.Amount);
+
+        return totalCredits - totalDebits >= Amount;
     }
 }

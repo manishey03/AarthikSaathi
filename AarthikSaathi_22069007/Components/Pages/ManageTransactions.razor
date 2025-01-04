@@ -3,18 +3,49 @@
 @using AarthikSaathi_22069007.Utilities
 @inject NavigationManager NavigationManager
 
-@page "/manage-transactions"
 <div style="max-width: 1000px; margin: auto; padding: 20px; font-family: Arial, sans-serif;">
     <h2 style="text-align: center; color: #2D9CFD; margin-bottom: 40px;">Manage Transactions</h2>
 
-    <!-- Import/Export Buttons -->
-    <div style="display: flex; justify-content: space-between; margin-bottom: 30px;">
-        <button style="padding: 10px 20px; background: #2D9CFD; color: white; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); transition: 0.3s;">
-            Import Transactions
-        </button>
-        <button style="padding: 10px 20px; background: #2D9CFD; color: white; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); transition: 0.3s;">
-            Export to CSV
-        </button>
+    <!-- Filtering Options -->
+    <div style="margin-bottom: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+        <div>
+            <label for="filterType" style="display: block; font-weight: bold; margin-bottom: 8px;">Filter by Type</label>
+            <select @bind="FilterType" id="filterType" style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 4px;">
+                <option value="">All</option>
+                <option value="credit">Credit</option>
+                <option value="debit">Debit</option>
+                <option value="debt">Debt</option>
+            </select>
+        </div>
+        <div>
+            <label for="searchTags" style="display: block; font-weight: bold; margin-bottom: 8px;">Search by Title</label>
+            <input @bind="SearchTags" type="text" id="searchTags" placeholder="Enter tags (e.g., groceries, rent)"
+                   style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        <div>
+            <label for="startDate" style="display: block; font-weight: bold; margin-bottom: 8px;">Start Date</label>
+            <input @bind="StartDate" type="date" id="startDate"
+                   style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        <div>
+            <label for="endDate" style="display: block; font-weight: bold; margin-bottom: 8px;">End Date</label>
+            <input @bind="EndDate" type="date" id="endDate"
+                   style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        <div>
+            <label for="sortOrder" style="display: block; font-weight: bold; margin-bottom: 8px;">Sort by Date</label>
+            <select @bind="SortOrder" id="sortOrder"
+                    style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 4px;">
+                <option value="asc">Oldest to Newest</option>
+                <option value="desc">Newest to Oldest</option>
+            </select>
+        </div>
+        <div style="display: flex; align-items: flex-end;">
+            <button @onclick="ApplyFilters"
+                    style="padding: 12px 20px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; width: 100%;">
+                Filter/Search
+            </button>
+        </div>
     </div>
 
     <!-- Transactions Table Heading -->
@@ -22,68 +53,97 @@
         Transaction Records
     </h3>
 
+    <!-- Conditional Message -->
+    @if (ShowNoTransactionsMessage)
+    {
+        <p style="text-align: center; color: red; font-weight: bold; margin-top: 20px;">
+            No transactions performed on the selected criteria.
+        </p>
+    }
+
     <!-- Transactions Table -->
     <table style="width: 100%; border-collapse: collapse; margin-top: 20px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
         <thead>
             <tr style="background: #2D9CFD; color: white;">
                 <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Date</th>
-                <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Title</th>
+                <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Tags</th>
                 <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Type</th>
                 <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Amount</th>
-                <th style="padding: 15px; text-align: left;">Tags</th>
+                <th style="padding: 15px; text-align: left;">Notes</th>
             </tr>
         </thead>
         <tbody>
-            <tr style="border-bottom: 1px solid #e0e0e0;">
-                <td style="padding: 15px;">2025-01-01</td>
-                <td style="padding: 15px;">Salary</td>
-                <td style="padding: 15px;">Credit</td>
-                <td style="padding: 15px;">$2000</td>
-                <td style="padding: 15px;">Income</td>
-            </tr>
-            <tr style="border-bottom: 1px solid #e0e0e0;">
-                <td style="padding: 15px;">2025-01-05</td>
-                <td style="padding: 15px;">Groceries</td>
-                <td style="padding: 15px;">Debit</td>
-                <td style="padding: 15px;">$200</td>
-                <td style="padding: 15px;">Food</td>
-            </tr>
-            <tr>
-                <td style="padding: 15px;">2025-01-10</td>
-                <td style="padding: 15px;">Rent</td>
-                <td style="padding: 15px;">Debit</td>
-                <td style="padding: 15px;">$500</td>
-                <td style="padding: 15px;">Housing</td>
-            </tr>
+            @if (FilteredTransactions.Any())
+            {
+                @foreach (var transaction in FilteredTransactions)
+                {
+                    <tr style="border-bottom: 1px solid #e0e0e0;">
+                        <td style="padding: 15px;">@transaction.TransactionDate.ToString("yyyy-MM-dd")</td>
+                        <td style="padding: 15px;">@string.Join(", ", transaction.Tags)</td>
+                        <td style="padding: 15px;">@transaction.TransactionType</td>
+                        <td style="padding: 15px;">@transaction.Amount</td>
+                        <td style="padding: 15px;">@transaction.Notes</td>
+                    </tr>
+                }
+            }
         </tbody>
     </table>
 </div>
 
 @code {
-    private string Username { get; set; }
-    private string Password { get; set; }
-    private string ErrorMessage { get; set; }
+    private List<Transaction> Transactions { get; set; } = new();
+    private List<Transaction> FilteredTransactions { get; set; } = new();
 
-    private async Task PerformLogin() // Renamed from Login to
+    private string FilterType { get; set; } = string.Empty;
+    private string SearchTags { get; set; } = string.Empty; // For tags search
+    private DateTime? StartDate { get; set; }
+    private DateTime? EndDate { get; set; }
+    private string SortOrder { get; set; } = "asc";
+    private bool ShowNoTransactionsMessage { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
     {
-        try
+        if (!UserSession.IsLoggedIn())
         {
-            var users = await JsonFileHandler.ReadDataAsync<User>("wwwroot/data/users.json");
-            var user = users.FirstOrDefault(u => u.Username == Username && u.Password == Password);
+            NavigationManager.NavigateTo("/login");
+            return;
+        }
 
-            if (user != null)
-            {
-                ErrorMessage = string.Empty;
-                NavigationManager.NavigateTo("/");
-            }
-            else
-            {
-                ErrorMessage = "Invalid username or password.";
-            }
-        }
-        catch (Exception ex)
+        // Load transactions for the logged-in user
+        var allTransactions = await JsonFileHandler.ReadDataAsync<Transaction>("wwwroot/data/transactions.json");
+        Transactions = allTransactions.Where(t => t.UserId == UserSession.CurrentUser!.UserId).ToList();
+        ApplyFilters();
+    }
+
+    private void ApplyFilters()
+    {
+        var query = Transactions.AsQueryable();
+
+        if (!string.IsNullOrEmpty(FilterType))
         {
-            ErrorMessage = "An error occurred: " + ex.Message;
+            query = query.Where(t => t.TransactionType == FilterType);
         }
+        if (!string.IsNullOrEmpty(SearchTags))
+        {
+            var searchTagsList = SearchTags.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                                           .Select(tag => tag.Trim().ToLower())
+                                           .ToList();
+
+            query = query.Where(t => t.Tags.Any(tag => searchTagsList.Contains(tag.ToLower())));
+        }
+        if (StartDate.HasValue)
+        {
+            query = query.Where(t => t.TransactionDate >= StartDate.Value);
+        }
+        if (EndDate.HasValue)
+        {
+            query = query.Where(t => t.TransactionDate <= EndDate.Value);
+        }
+
+        query = SortOrder == "asc" ? query.OrderBy(t => t.TransactionDate) : query.OrderByDescending(t => t.TransactionDate);
+        FilteredTransactions = query.ToList();
+
+        // Show a message if no transactions match the filters
+        ShowNoTransactionsMessage = !FilteredTransactions.Any();
     }
 }

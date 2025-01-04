@@ -3,7 +3,6 @@
 @using AarthikSaathi_22069007.Utilities
 @inject NavigationManager NavigationManager
 
-
 <div style="max-width: 900px; margin: auto; padding: 20px; font-family: Arial, sans-serif;">
     <h2 style="text-align: center; color: #2D9CFD;">Transaction Dashboard</h2>
 
@@ -11,15 +10,23 @@
     <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px;">
         <div style="flex: 1 1 250px; background: #E3F2FD; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
             <h3 style="color: #2D9CFD;">Total Inflows</h3>
-            <p style="font-size: 24px; font-weight: bold;">$5000</p>
+            <p style="font-size: 24px; font-weight: bold;">$@TotalInflows</p>
         </div>
         <div style="flex: 1 1 250px; background: #FFEBEE; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
             <h3 style="color: #F44336;">Total Outflows</h3>
-            <p style="font-size: 24px; font-weight: bold;">$3000</p>
+            <p style="font-size: 24px; font-weight: bold;">$@TotalOutflows</p>
         </div>
         <div style="flex: 1 1 250px; background: #FFF8E1; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
             <h3 style="color: #FF9800;">Total Debts</h3>
-            <p style="font-size: 24px; font-weight: bold;">$200</p>
+            <p style="font-size: 24px; font-weight: bold;">$@TotalDebts</p>
+        </div>
+        <div style="flex: 1 1 250px; background: #E8F5E9; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #4CAF50;">Total Transactions</h3>
+            <p style="font-size: 24px; font-weight: bold;">@TotalTransactions</p>
+        </div>
+        <div style="flex: 1 1 250px; background: #F1F8E9; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #8BC34A;">Net Transaction Value</h3>
+            <p style="font-size: 24px; font-weight: bold;">$@NetTransactionValue</p>
         </div>
     </div>
 
@@ -27,39 +34,69 @@
     <div style="margin-top: 40px;">
         <h3 style="color: #2D9CFD;">Top Transactions</h3>
         <ul style="list-style: none; padding: 0;">
-            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">Highest Inflow: $2000</li>
-            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">Lowest Outflow: $50</li>
-            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">Highest Debt: $500</li>
+            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">
+                Highest Inflow: $@HighestInflow
+            </li>
+            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">
+                Lowest Inflow: $@LowestInflow
+            </li>
+            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">
+                Highest Outflow: $@HighestOutflow
+            </li>
+            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">
+                Lowest Outflow: $@LowestOutflow
+            </li>
+            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">
+                Highest Debt: $@HighestDebt
+            </li>
+            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">
+                Lowest Debt: $@LowestDebt
+            </li>
         </ul>
     </div>
 </div>
 
-
 @code {
-    private string Username { get; set; }
-    private string Password { get; set; }
-    private string ErrorMessage { get; set; }
+    private decimal TotalInflows { get; set; }
+    private decimal TotalOutflows { get; set; }
+    private decimal TotalDebts { get; set; }
+    private int TotalTransactions { get; set; }
+    private decimal NetTransactionValue { get; set; }
 
-    private async Task PerformLogin() // Renamed from Login to
+    private decimal HighestInflow { get; set; }
+    private decimal LowestInflow { get; set; }
+    private decimal HighestOutflow { get; set; }
+    private decimal LowestOutflow { get; set; }
+    private decimal HighestDebt { get; set; }
+    private decimal LowestDebt { get; set; }
+
+    protected override async Task OnInitializedAsync()
     {
-        try
+        if (!UserSession.IsLoggedIn())
         {
-            var users = await JsonFileHandler.ReadDataAsync<User>("wwwroot/data/users.json");
-            var user = users.FirstOrDefault(u => u.Username == Username && u.Password == Password);
+            NavigationManager.NavigateTo("/login");
+            return;
+        }
 
-            if (user != null)
-            {
-                ErrorMessage = string.Empty;
-                NavigationManager.NavigateTo("/");
-            }
-            else
-            {
-                ErrorMessage = "Invalid username or password.";
-            }
-        }
-        catch (Exception ex)
-        {
-            ErrorMessage = "An error occurred: " + ex.Message;
-        }
+        // Load transactions for the logged-in user
+        var allTransactions = await JsonFileHandler.ReadDataAsync<Transaction>("wwwroot/data/transactions.json");
+        var userTransactions = allTransactions.Where(t => t.UserId == UserSession.CurrentUser!.UserId).ToList();
+
+        TotalInflows = userTransactions.Where(t => t.TransactionType == "credit").Sum(t => t.Amount);
+        TotalOutflows = userTransactions.Where(t => t.TransactionType == "debit").Sum(t => t.Amount);
+        TotalDebts = userTransactions.Where(t => t.TransactionType == "debt").Sum(t => t.Amount);
+        TotalTransactions = userTransactions.Count;
+
+        NetTransactionValue = TotalInflows + TotalDebts - TotalOutflows;
+
+        // Calculate Highest and Lowest Transactions
+        HighestInflow = userTransactions.Where(t => t.TransactionType == "credit").DefaultIfEmpty(new Transaction { Amount = 0 }).Max(t => t.Amount);
+        LowestInflow = userTransactions.Where(t => t.TransactionType == "credit").DefaultIfEmpty(new Transaction { Amount = 0 }).Min(t => t.Amount);
+
+        HighestOutflow = userTransactions.Where(t => t.TransactionType == "debit").DefaultIfEmpty(new Transaction { Amount = 0 }).Max(t => t.Amount);
+        LowestOutflow = userTransactions.Where(t => t.TransactionType == "debit").DefaultIfEmpty(new Transaction { Amount = 0 }).Min(t => t.Amount);
+
+        HighestDebt = userTransactions.Where(t => t.TransactionType == "debt").DefaultIfEmpty(new Transaction { Amount = 0 }).Max(t => t.Amount);
+        LowestDebt = userTransactions.Where(t => t.TransactionType == "debt").DefaultIfEmpty(new Transaction { Amount = 0 }).Min(t => t.Amount);
     }
 }

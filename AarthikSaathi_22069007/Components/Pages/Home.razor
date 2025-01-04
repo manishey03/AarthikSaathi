@@ -1,31 +1,72 @@
 ﻿@page "/"
 @using AarthikSaathi_22069007.Models
+@using AarthikSaathi_22069007.Utilities
 @inject NavigationManager NavigationManager
 
-<div style="width: 100%; height: 100%; background-color: #f4f4f4; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Arial, sans-serif;">
-    <div style="text-align: center; margin-bottom: 20px;">
-        
-        <h2>Welcome to AarthikSaathi!</h2>
+<div style="width: 100%; min-height: 100vh; background-color: #f4f4f4; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Arial, sans-serif;">
+    <!-- Welcome Header -->
+    <div style="text-align: center; margin-bottom: 40px;">
+        <h1 style="font-size: 2.5rem; color: #2D9CFD;">Welcome to AarthikSaathi!</h1>
+        <h3>Hello, <strong>@Username</strong>!</h3>
     </div>
 
-    <div style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 60%; text-align: center;">
-        <h3>Hello, <strong>@Username</strong>!</h3>
-        <p>Welcome to your dashboard. Here you can find your financial details, track transactions, and more.</p>
+    <!-- Navigation Buttons -->
+    <div style="background-color: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); width: 80%; text-align: center;">
+        <p>Choose what you'd like to do today:</p>
+        <div style="display: flex; justify-content: space-around; margin-top: 20px; gap: 20px;">
+            <button @onclick="NavigateToAddTransaction" style="padding: 15px 25px; background-color: #2D9CFD; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem; transition: transform 0.3s;">
+                Add Transaction
+            </button>
+            <button @onclick="NavigateToManageTransactions" style="padding: 15px 25px; background-color: #4CAF50; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem; transition: transform 0.3s;">
+                Manage Transactions
+            </button>
+            <button @onclick="NavigateToDashboard" style="padding: 15px 25px; background-color: #FF9800; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem; transition: transform 0.3s;">
+                Dashboard
+            </button>
+        </div>
 
-        <!-- Add links to navigate to other parts of the application -->
-        <div style="margin-top: 20px;">
-            <button @onclick="Logout" style="padding: 10px 20px; background-color: #f44336; color: white; border: none; border-radius: 4px; cursor: pointer;">Logout</button>
+        <!-- Logout Button -->
+        <div style="margin-top: 30px;">
+            <button @onclick="Logout" style="padding: 12px 20px; background-color: #f44336; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+                Logout
+            </button>
         </div>
     </div>
 </div>
 
 @code {
-    private string Username { get; set; } = "User";  // Set this to the logged-in user's username
+    private string Username { get; set; } = "User";
+
+    protected override void OnInitialized()
+    {
+        if (UserSession.CurrentUser != null)
+        {
+            Username = UserSession.CurrentUser.Username;
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+    }
+
+    private void NavigateToAddTransaction()
+    {
+        NavigationManager.NavigateTo("/addTransaction");
+    }
+
+    private void NavigateToManageTransactions()
+    {
+        NavigationManager.NavigateTo("/manageTransaction");
+    }
+
+    private void NavigateToDashboard()
+    {
+        NavigationManager.NavigateTo("/dashboard");
+    }
 
     private void Logout()
     {
-        // Handle the logout functionality
-        // For example, clearing the session or navigating to the login page
+        UserSession.Logout();
         NavigationManager.NavigateTo("/login");
     }
 }

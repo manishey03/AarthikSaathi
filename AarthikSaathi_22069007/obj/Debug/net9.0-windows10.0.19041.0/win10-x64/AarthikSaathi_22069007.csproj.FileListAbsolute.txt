@@ -1487,7 +1487,6 @@ C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\D
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\rix22hiiue-e5tk7yf482.gz
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\m43ubavd3n-6gzpyzhau4.gz
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\djf3wi158p-8inm30yfxf.gz
-C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\vx5bj0t7z5-u65v8bo0vm.gz
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\hs6ibci0ju-ysh984jmpr.gz
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\pexi20h3g6-o7bnbahw5o.gz
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\6x2032l922-o7bnbahw5o.gz
@@ -1506,7 +1505,6 @@ C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\D
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\rix22hiiue-e5tk7yf482.br
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\m43ubavd3n-6gzpyzhau4.br
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\djf3wi158p-8inm30yfxf.br
-C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\vx5bj0t7z5-u65v8bo0vm.br
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\hs6ibci0ju-ysh984jmpr.br
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.publish.json
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.publish.endpoints.json
@@ -1608,3 +1606,10 @@ C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\D
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transaction.json.gz
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transaction.json.br
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transaction.json
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\pe40zkjo6v-b9g4ogp5tr.gz
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\pe40zkjo6v-b9g4ogp5tr.br
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\vx5bj0t7z5-fghyd6cqmr.gz
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\vx5bj0t7z5-fghyd6cqmr.br

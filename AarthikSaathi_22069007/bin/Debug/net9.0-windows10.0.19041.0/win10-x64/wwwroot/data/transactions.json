@@ -1,0 +1,54 @@
+[
+  {
+    "TransactionId": 426831277,
+    "UserId": 0,
+    "Amount": 1000,
+    "TransactionType": "debit",
+    "TransactionTitle": "",
+    "Tags": [
+      "rent"
+    ],
+    "Notes": "Jan",
+    "DueDate": null,
+    "TransactionDate": "2025-01-04T21:26:53.3843537+05:45"
+  },
+  {
+    "TransactionId": 381936569,
+    "UserId": 0,
+    "Amount": 10000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Salary"
+    ],
+    "Notes": "Full salary",
+    "DueDate": null,
+    "TransactionDate": "2025-01-04T21:57:31.3677711+05:45"
+  },
+  {
+    "TransactionId": -2085057315,
+    "UserId": 0,
+    "Amount": 5000,
+    "TransactionType": "debit",
+    "TransactionTitle": "",
+    "Tags": [
+      "fun"
+    ],
+    "Notes": "",
+    "DueDate": null,
+    "TransactionDate": "2025-01-04T21:58:24.1523704+05:45"
+  },
+  {
+    "TransactionId": -1055195583,
+    "UserId": 0,
+    "Amount": 1000,
+    "TransactionType": "debit",
+    "TransactionTitle": "",
+    "Tags": [
+      "books"
+    ],
+    "Notes": "books",
+    "DueDate": null,
+    "TransactionDate": "2025-01-04T22:50:49.9467138+05:45"
+  }
+]
