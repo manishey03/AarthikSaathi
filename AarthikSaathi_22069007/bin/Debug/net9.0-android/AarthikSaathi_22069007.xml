@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AarthikSaathi_22069007</name>
+    </assembly>
+    <members>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.TransactionId">
+            <summary>
+            Unique identifier for the transaction.
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.UserId">
+            <summary>
+            Identifier for the user who created the transaction.
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.Amount">
+            <summary>
+            Amount of the transaction.
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.TransactionType">
+            <summary>
+            Type of transaction: "credit", "debit", or "debt".
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.TransactionTitle">
+            <summary>
+            Title or description of the transaction.
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.Tags">
+            <summary>
+            Optional tags to categorize the transaction (e.g., "groceries", "rent").
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.Notes">
+            <summary>
+            Optional notes for additional details about the transaction.
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.DueDate">
+            <summary>
+            Due date for debt transactions. Null for other transaction types.
+            </summary>
+        </member>
+        <member name="P:AarthikSaathi_22069007.Models.Transaction.TransactionDate">
+            <summary>
+            Date and time when the transaction was created.
+            </summary>
+        </member>
+        <member name="T:AarthikSaathi_22069007.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

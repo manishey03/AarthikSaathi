@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\wwwroot\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\wwwroot\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\wwwroot\\data\\transaction.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\wwwroot\\data\\transaction.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\wwwroot\\data\\transactions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\wwwroot\\data\\transactions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\utilities\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\utilities\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,158 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "users.json",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\wwwroot\\data\\users.json",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
-              "RelativeToolTip": "AarthikSaathi_22069007\\wwwroot\\data\\users.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-04T14:23:44.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Dashboard.razor",
               "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
               "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
               "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAEoAAACAMzMzMzMbwEUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAMzMzMzMbwHMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T13:39:43.039Z",
+              "WhenOpened": "2025-01-05T02:19:40.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "transactions.json",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
+              "RelativeToolTip": "AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-05T03:21:13.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ManageTransactions.razor",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
-              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAswJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T13:46:50.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AddTransaction.razor",
               "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
               "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
               "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAUwIAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T15:29:44.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Routes.razor",
-              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T15:10:38.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwCUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T14:28:48.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Models\\Transaction.cs",
-              "RelativeToolTip": "AarthikSaathi_22069007\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T15:03:03.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
-              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAABMAAAAAMzMzMzMLwCEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T13:13:21.951Z",
+              "WhenOpened": "2025-01-05T03:22:44.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "transaction.json",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
-              "RelativeToolTip": "AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-04T14:24:14.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Utilities\\UserSession.cs",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Utilities\\UserSession.cs",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Utilities\\UserSession.cs",
-              "RelativeToolTip": "AarthikSaathi_22069007\\Utilities\\UserSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:16:20.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Title": "ManageTransactions.razor",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
+              "ViewState": "AgIAAFoAAAAAZmZmZmYOwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T14:21:47.99Z",
+              "WhenOpened": "2025-01-05T03:23:31.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T02:35:55.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Models\\User.cs",
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Models\\User.cs",
               "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Models\\User.cs",
               "RelativeToolTip": "AarthikSaathi_22069007\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:19:25.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T14:19:25.969Z"
             }
           ]
         }

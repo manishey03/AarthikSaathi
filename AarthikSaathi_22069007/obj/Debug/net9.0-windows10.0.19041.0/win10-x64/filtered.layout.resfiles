@@ -1,17 +1,17 @@
 runtimes\win-x64\native\WebView2Loader.dll
 Components\Layout\MainLayout.razor.css
 Components\Layout\NavMenu.razor.css
+wwwroot\data\transactions.json.gz
 wwwroot\AarthikSaathi_22069007.o7bnbahw5o.bundle.scp.css.gz
 wwwroot\css\bootstrap\bootstrap.min.css.map.gz
 wwwroot\index.html.gz
 wwwroot\css\bootstrap\bootstrap.min.css.gz
-wwwroot\data\transaction.json.gz
 wwwroot\AarthikSaathi_22069007.styles.css.gz
+wwwroot\data\transactions.json.br
 wwwroot\AarthikSaathi_22069007.o7bnbahw5o.bundle.scp.css.br
 wwwroot\css\bootstrap\bootstrap.min.css.map.br
 wwwroot\index.html.br
 wwwroot\css\bootstrap\bootstrap.min.css.br
-wwwroot\data\transaction.json.br
 wwwroot\AarthikSaathi_22069007.styles.css.br
 wwwroot\css\app.css.br
 wwwroot\data\users.json.br
@@ -80,7 +80,7 @@ AboutAssets.txt
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
-wwwroot\data\transaction.json
+wwwroot\data\transactions.json
 wwwroot\data\users.json
 wwwroot\index.html
 wwwroot\NewFolder\Aarthik Saathi.png

@@ -1606,10 +1606,10 @@ C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\D
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
-C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transaction.json.gz
-C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transaction.json.br
-C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transaction.json
-C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\pe40zkjo6v-b9g4ogp5tr.gz
-C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\pe40zkjo6v-b9g4ogp5tr.br
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\vx5bj0t7z5-fghyd6cqmr.gz
 C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\vx5bj0t7z5-fghyd6cqmr.br
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transactions.json.gz
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transactions.json.br
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\data\transactions.json
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\1ydl36bvc8-1i52c42vn3.gz
+C:\Users\manis\Desktop\AD Coursework1\AarthikSaathi\AarthikSaathi_22069007\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\1ydl36bvc8-1i52c42vn3.br

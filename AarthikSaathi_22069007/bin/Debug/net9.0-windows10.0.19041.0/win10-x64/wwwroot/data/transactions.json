@@ -1,32 +1,162 @@
 [
   {
-    "TransactionId": 426831277,
+    "TransactionId": 1271506543,
     "UserId": 0,
-    "Amount": 1000,
-    "TransactionType": "debit",
-    "TransactionTitle": "",
-    "Tags": [
-      "rent"
-    ],
-    "Notes": "Jan",
-    "DueDate": null,
-    "TransactionDate": "2025-01-04T21:26:53.3843537+05:45"
-  },
-  {
-    "TransactionId": 381936569,
-    "UserId": 0,
-    "Amount": 10000,
+    "Amount": -5180,
     "TransactionType": "credit",
     "TransactionTitle": "",
     "Tags": [
       "Salary"
     ],
-    "Notes": "Full salary",
+    "Notes": "Salary of Jan",
     "DueDate": null,
-    "TransactionDate": "2025-01-04T21:57:31.3677711+05:45"
+    "TransactionDate": "2025-01-05T09:21:48.560767+05:45"
   },
   {
-    "TransactionId": -2085057315,
+    "TransactionId": -1454378158,
+    "UserId": 0,
+    "Amount": 5000,
+    "TransactionType": "debit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Rent"
+    ],
+    "Notes": "Rent of Jan",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T09:22:13.915095+05:45"
+  },
+  {
+    "TransactionId": 1609229811,
+    "UserId": 0,
+    "Amount": 0,
+    "TransactionType": "debt",
+    "TransactionTitle": "",
+    "Tags": [
+      "Fees"
+    ],
+    "Notes": "College Fee",
+    "DueDate": "2025-02-05T09:22:34.8114191+05:45",
+    "TransactionDate": "2025-01-05T09:22:34.8114183+05:45"
+  },
+  {
+    "TransactionId": -365671245,
+    "UserId": 0,
+    "Amount": 0,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Groceries"
+    ],
+    "Notes": "Home",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T09:35:59.5320373+05:45"
+  },
+  {
+    "TransactionId": -1578056086,
+    "UserId": 0,
+    "Amount": 90,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Salary"
+    ],
+    "Notes": "fgd",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T13:56:56.6583543+05:45"
+  },
+  {
+    "TransactionId": -1485066149,
+    "UserId": 0,
+    "Amount": 0,
+    "TransactionType": "debt",
+    "TransactionTitle": "",
+    "Tags": [
+      "Groceries"
+    ],
+    "Notes": "Gro",
+    "DueDate": "2025-02-05T17:40:54.1337165+05:45",
+    "TransactionDate": "2025-01-05T17:40:54.1337143+05:45"
+  },
+  {
+    "TransactionId": -1049045180,
+    "UserId": 0,
+    "Amount": 0,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Groceries"
+    ],
+    "Notes": "Manisha",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T17:42:57.3964777+05:45"
+  },
+  {
+    "TransactionId": 1932671224,
+    "UserId": 0,
+    "Amount": 0,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Salary"
+    ],
+    "Notes": "Bonus",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T17:54:14.1659474+05:45"
+  },
+  {
+    "TransactionId": -760246233,
+    "UserId": 0,
+    "Amount": 1000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "jmsxj"
+    ],
+    "Notes": "sbx",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T18:06:40.5830497+05:45"
+  },
+  {
+    "TransactionId": 1924476760,
+    "UserId": 0,
+    "Amount": 25000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Salary"
+    ],
+    "Notes": "yk",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T18:07:39.4701494+05:45"
+  },
+  {
+    "TransactionId": 1159206293,
+    "UserId": 0,
+    "Amount": 1000,
+    "TransactionType": "debit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Movie"
+    ],
+    "Notes": "Movies",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T18:08:08.5542147+05:45"
+  },
+  {
+    "TransactionId": -1351173973,
+    "UserId": 0,
+    "Amount": 500,
+    "TransactionType": "debit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Groceries"
+    ],
+    "Notes": "test",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T18:25:25.5092113+05:45"
+  },
+  {
+    "TransactionId": -1030422943,
     "UserId": 0,
     "Amount": 5000,
     "TransactionType": "debit",
@@ -34,21 +164,47 @@
     "Tags": [
       "fun"
     ],
-    "Notes": "",
+    "Notes": "add fun",
     "DueDate": null,
-    "TransactionDate": "2025-01-04T21:58:24.1523704+05:45"
+    "TransactionDate": "2025-01-05T18:33:28.0073118+05:45"
   },
   {
-    "TransactionId": -1055195583,
+    "TransactionId": -1160634475,
     "UserId": 0,
-    "Amount": 1000,
+    "Amount": 500,
     "TransactionType": "debit",
     "TransactionTitle": "",
     "Tags": [
-      "books"
+      "Groceries"
     ],
-    "Notes": "books",
+    "Notes": "",
     "DueDate": null,
-    "TransactionDate": "2025-01-04T22:50:49.9467138+05:45"
+    "TransactionDate": "2025-01-05T18:33:50.8518657+05:45"
+  },
+  {
+    "TransactionId": -1231817147,
+    "UserId": 0,
+    "Amount": 1000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Dakshina"
+    ],
+    "Notes": "Home",
+    "DueDate": null,
+    "TransactionDate": "2025-01-05T18:39:54.321707+05:45"
+  },
+  {
+    "TransactionId": 1210089914,
+    "UserId": 0,
+    "Amount": 0,
+    "TransactionType": "debt",
+    "TransactionTitle": "",
+    "Tags": [
+      "Esewa"
+    ],
+    "Notes": "By Me",
+    "DueDate": "2025-02-05T18:40:29.7448334+05:45",
+    "TransactionDate": "2025-01-05T18:40:29.7448328+05:45"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9yN5zV40JVPvDcXPIP8hIpbBWJ730yroup3xvmI5t38=",
+  "Hash": "t6sCWsFh6UXZGlXS2GXrCxSR5ngK0JLPJ4FBcJueE6E=",
   "Source": "AarthikSaathi_22069007",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\1ydl36bvc8-b9g4ogp5tr.gz",
+      "SourceId": "AarthikSaathi_22069007",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "data/transactions#[.{fingerprint=b9g4ogp5tr}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zu6sb7r1v6",
+      "Integrity": "u2gEaWdBCZN8GJggnARO7GxmqgH0f9ZXwhkhvPSxBNw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json"
+    },
     {
       "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\6x2032l922-o7bnbahw5o.gz",
       "SourceId": "AarthikSaathi_22069007",
@@ -101,27 +122,6 @@
       "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\pe40zkjo6v-b9g4ogp5tr.gz",
-      "SourceId": "AarthikSaathi_22069007",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\",
-      "BasePath": "/",
-      "RelativePath": "data/transaction#[.{fingerprint=b9g4ogp5tr}]?.json.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "zu6sb7r1v6",
-      "Integrity": "u2gEaWdBCZN8GJggnARO7GxmqgH0f9ZXwhkhvPSxBNw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json"
-    },
-    {
       "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\pexi20h3g6-o7bnbahw5o.gz",
       "SourceId": "AarthikSaathi_22069007",
       "SourceType": "Computed",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\AarthikSaathi_22069007.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\1ydl36bvc8-b9g4ogp5tr.br",
+      "SourceId": "AarthikSaathi_22069007",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "data/transactions#[.{fingerprint=b9g4ogp5tr}]?.json.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "abrgzca3zx",
+      "Integrity": "RgElGWDOXflYDrNKbmJpyPRCdXc0bWkcSXwiD342HfI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json"
     },
     {
       "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\6x2032l922-o7bnbahw5o.br",
@@ -227,27 +248,6 @@
       "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\pe40zkjo6v-b9g4ogp5tr.br",
-      "SourceId": "AarthikSaathi_22069007",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
-      "BasePath": "/",
-      "RelativePath": "data/transaction#[.{fingerprint=b9g4ogp5tr}]?.json.br",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "br",
-      "Fingerprint": "abrgzca3zx",
-      "Integrity": "RgElGWDOXflYDrNKbmJpyPRCdXc0bWkcSXwiD342HfI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json"
-    },
-    {
       "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\pexi20h3g6-o7bnbahw5o.br",
       "SourceId": "AarthikSaathi_22069007",
       "SourceType": "Computed",
@@ -290,12 +290,12 @@
       "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-u65v8bo0vm.br",
+      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-fghyd6cqmr.br",
       "SourceId": "AarthikSaathi_22069007",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
-      "RelativePath": "data/users#[.{fingerprint=u65v8bo0vm}]?.json.br",
+      "RelativePath": "data/users#[.{fingerprint=fghyd6cqmr}]?.json.br",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -304,8 +304,8 @@
       "RelatedAsset": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "rrx09uu50k",
-      "Integrity": "CVQ+wa6+rqGUH56ukHS7BMryWwRDTQbQ48ThOgYWWz4=",
+      "Fingerprint": "1tb5tsj5v5",
+      "Integrity": "BWj9EfEXM4II49zodxJlRfjsTJNEkIZKuB7liVHHwbg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json"
@@ -332,12 +332,12 @@
       "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-u65v8bo0vm.gz",
+      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-fghyd6cqmr.gz",
       "SourceId": "AarthikSaathi_22069007",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "data/users#[.{fingerprint=u65v8bo0vm}]?.json.gz",
+      "RelativePath": "data/users#[.{fingerprint=fghyd6cqmr}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -346,8 +346,8 @@
       "RelatedAsset": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tjotjk5sqh",
-      "Integrity": "d8s2q1bAT+G4aM+Af7RiilZiMOn4YTkZ6335HQ7/Iyo=",
+      "Fingerprint": "8xxzsmigzo",
+      "Integrity": "hJWozh0KiN+w9qz+2fbA228JeRPtegNogR43rVU4his=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json"
@@ -458,12 +458,12 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
+      "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
       "SourceId": "AarthikSaathi_22069007",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "data/transaction#[.{fingerprint}]?.json",
+      "RelativePath": "data/transactions#[.{fingerprint}]?.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -476,7 +476,7 @@
       "Integrity": "T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\data\\transaction.json"
+      "OriginalItemSpec": "wwwroot\\data\\transactions.json"
     },
     {
       "Identity": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u65v8bo0vm",
-      "Integrity": "BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4=",
+      "Fingerprint": "fghyd6cqmr",
+      "Integrity": "39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\users.json"
@@ -3114,8 +3114,8 @@
       ]
     },
     {
-      "Route": "data/transaction.b9g4ogp5tr.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\pe40zkjo6v-b9g4ogp5tr.gz",
+      "Route": "data/transactions.b9g4ogp5tr.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\1ydl36bvc8-b9g4ogp5tr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3138,7 +3138,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3168,7 +3168,7 @@
         },
         {
           "Name": "label",
-          "Value": "data/transaction.json"
+          "Value": "data/transactions.json"
         },
         {
           "Name": "integrity",
@@ -3177,8 +3177,8 @@
       ]
     },
     {
-      "Route": "data/transaction.b9g4ogp5tr.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\pe40zkjo6v-b9g4ogp5tr.br",
+      "Route": "data/transactions.b9g4ogp5tr.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\1ydl36bvc8-b9g4ogp5tr.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3201,7 +3201,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3231,7 +3231,7 @@
         },
         {
           "Name": "label",
-          "Value": "data/transaction.json"
+          "Value": "data/transactions.json"
         },
         {
           "Name": "integrity",
@@ -3240,8 +3240,8 @@
       ]
     },
     {
-      "Route": "data/transaction.b9g4ogp5tr.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
+      "Route": "data/transactions.b9g4ogp5tr.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3262,7 +3262,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3276,7 +3276,7 @@
         },
         {
           "Name": "label",
-          "Value": "data/transaction.json"
+          "Value": "data/transactions.json"
         },
         {
           "Name": "integrity",
@@ -3285,8 +3285,8 @@
       ]
     },
     {
-      "Route": "data/transaction.b9g4ogp5tr.json.br",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\pe40zkjo6v-b9g4ogp5tr.br",
+      "Route": "data/transactions.b9g4ogp5tr.json.br",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\1ydl36bvc8-b9g4ogp5tr.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3307,7 +3307,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3329,7 +3329,7 @@
         },
         {
           "Name": "label",
-          "Value": "data/transaction.json.br"
+          "Value": "data/transactions.json.br"
         },
         {
           "Name": "integrity",
@@ -3338,8 +3338,8 @@
       ]
     },
     {
-      "Route": "data/transaction.b9g4ogp5tr.json.gz",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\pe40zkjo6v-b9g4ogp5tr.gz",
+      "Route": "data/transactions.b9g4ogp5tr.json.gz",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\1ydl36bvc8-b9g4ogp5tr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3360,7 +3360,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3382,7 +3382,7 @@
         },
         {
           "Name": "label",
-          "Value": "data/transaction.json.gz"
+          "Value": "data/transactions.json.gz"
         },
         {
           "Name": "integrity",
@@ -3391,8 +3391,8 @@
       ]
     },
     {
-      "Route": "data/transaction.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\pe40zkjo6v-b9g4ogp5tr.gz",
+      "Route": "data/transactions.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\1ydl36bvc8-b9g4ogp5tr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3415,7 +3415,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3446,8 +3446,8 @@
       ]
     },
     {
-      "Route": "data/transaction.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\pe40zkjo6v-b9g4ogp5tr.br",
+      "Route": "data/transactions.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\1ydl36bvc8-b9g4ogp5tr.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3470,7 +3470,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3501,8 +3501,8 @@
       ]
     },
     {
-      "Route": "data/transaction.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transaction.json",
+      "Route": "data/transactions.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3523,7 +3523,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3538,8 +3538,8 @@
       ]
     },
     {
-      "Route": "data/transaction.json.br",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\pe40zkjo6v-b9g4ogp5tr.br",
+      "Route": "data/transactions.json.br",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\1ydl36bvc8-b9g4ogp5tr.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3560,7 +3560,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3583,8 +3583,8 @@
       ]
     },
     {
-      "Route": "data/transaction.json.gz",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\pe40zkjo6v-b9g4ogp5tr.gz",
+      "Route": "data/transactions.json.gz",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\1ydl36bvc8-b9g4ogp5tr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3605,7 +3605,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 16:15:50 GMT"
+          "Value": "Sun, 05 Jan 2025 03:29:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3628,13 +3628,13 @@
       ]
     },
     {
-      "Route": "data/users.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-u65v8bo0vm.br",
+      "Route": "data/users.fghyd6cqmr.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-fghyd6cqmr.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.011235955056"
+          "Quality": "0.012500000000"
         }
       ],
       "ResponseHeaders": [
@@ -3644,19 +3644,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "88"
+          "Value": "79"
         },
         {
           "Name": "ETag",
-          "Value": "\"CVQ+wa6+rqGUH56ukHS7BMryWwRDTQbQ48ThOgYWWz4=\""
+          "Value": "\"BWj9EfEXM4II49zodxJlRfjsTJNEkIZKuB7liVHHwbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3672,24 +3672,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4=\""
+          "Value": "W/\"39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "fghyd6cqmr"
+        },
+        {
+          "Name": "label",
+          "Value": "data/users.json"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4="
+          "Value": "sha256-39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8="
         }
       ]
     },
     {
-      "Route": "data/users.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-u65v8bo0vm.gz",
+      "Route": "data/users.fghyd6cqmr.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-fghyd6cqmr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.011235955056"
+          "Quality": "0.012820512821"
         }
       ],
       "ResponseHeaders": [
@@ -3699,19 +3707,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "88"
+          "Value": "77"
         },
         {
           "Name": "ETag",
-          "Value": "\"d8s2q1bAT+G4aM+Af7RiilZiMOn4YTkZ6335HQ7/Iyo=\""
+          "Value": "\"hJWozh0KiN+w9qz+2fbA228JeRPtegNogR43rVU4his=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3727,18 +3735,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4=\""
+          "Value": "W/\"39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "fghyd6cqmr"
+        },
+        {
+          "Name": "label",
+          "Value": "data/users.json"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4="
+          "Value": "sha256-39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8="
         }
       ]
     },
     {
-      "Route": "data/users.json",
+      "Route": "data/users.fghyd6cqmr.json",
       "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3748,7 +3764,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "160"
+          "Value": "91"
         },
         {
           "Name": "Content-Type",
@@ -3756,264 +3772,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4=\""
+          "Value": "\"39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4="
-        }
-      ]
-    },
-    {
-      "Route": "data/users.json.br",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-u65v8bo0vm.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CVQ+wa6+rqGUH56ukHS7BMryWwRDTQbQ48ThOgYWWz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CVQ+wa6+rqGUH56ukHS7BMryWwRDTQbQ48ThOgYWWz4="
-        }
-      ]
-    },
-    {
-      "Route": "data/users.json.gz",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-u65v8bo0vm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"d8s2q1bAT+G4aM+Af7RiilZiMOn4YTkZ6335HQ7/Iyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-d8s2q1bAT+G4aM+Af7RiilZiMOn4YTkZ6335HQ7/Iyo="
-        }
-      ]
-    },
-    {
-      "Route": "data/users.u65v8bo0vm.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-u65v8bo0vm.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.011235955056"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CVQ+wa6+rqGUH56ukHS7BMryWwRDTQbQ48ThOgYWWz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u65v8bo0vm"
-        },
-        {
-          "Name": "label",
-          "Value": "data/users.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4="
-        }
-      ]
-    },
-    {
-      "Route": "data/users.u65v8bo0vm.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-u65v8bo0vm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.011235955056"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"d8s2q1bAT+G4aM+Af7RiilZiMOn4YTkZ6335HQ7/Iyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u65v8bo0vm"
-        },
-        {
-          "Name": "label",
-          "Value": "data/users.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4="
-        }
-      ]
-    },
-    {
-      "Route": "data/users.u65v8bo0vm.json",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "160"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4023,7 +3786,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u65v8bo0vm"
+          "Value": "fghyd6cqmr"
         },
         {
           "Name": "label",
@@ -4031,13 +3794,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BsBYrbkeL29lkOXmB697U++jZSahY2Q3w9/R8CHKMS4="
+          "Value": "sha256-39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8="
         }
       ]
     },
     {
-      "Route": "data/users.u65v8bo0vm.json.br",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-u65v8bo0vm.br",
+      "Route": "data/users.fghyd6cqmr.json.br",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-fghyd6cqmr.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4046,7 +3809,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "88"
+          "Value": "79"
         },
         {
           "Name": "Content-Type",
@@ -4054,11 +3817,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CVQ+wa6+rqGUH56ukHS7BMryWwRDTQbQ48ThOgYWWz4=\""
+          "Value": "\"BWj9EfEXM4II49zodxJlRfjsTJNEkIZKuB7liVHHwbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4076,7 +3839,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u65v8bo0vm"
+          "Value": "fghyd6cqmr"
         },
         {
           "Name": "label",
@@ -4084,13 +3847,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CVQ+wa6+rqGUH56ukHS7BMryWwRDTQbQ48ThOgYWWz4="
+          "Value": "sha256-BWj9EfEXM4II49zodxJlRfjsTJNEkIZKuB7liVHHwbg="
         }
       ]
     },
     {
-      "Route": "data/users.u65v8bo0vm.json.gz",
-      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-u65v8bo0vm.gz",
+      "Route": "data/users.fghyd6cqmr.json.gz",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-fghyd6cqmr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4099,7 +3862,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "88"
+          "Value": "77"
         },
         {
           "Name": "Content-Type",
@@ -4107,11 +3870,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d8s2q1bAT+G4aM+Af7RiilZiMOn4YTkZ6335HQ7/Iyo=\""
+          "Value": "\"hJWozh0KiN+w9qz+2fbA228JeRPtegNogR43rVU4his=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 13:06:50 GMT"
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4129,7 +3892,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u65v8bo0vm"
+          "Value": "fghyd6cqmr"
         },
         {
           "Name": "label",
@@ -4137,7 +3900,244 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-d8s2q1bAT+G4aM+Af7RiilZiMOn4YTkZ6335HQ7/Iyo="
+          "Value": "sha256-hJWozh0KiN+w9qz+2fbA228JeRPtegNogR43rVU4his="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-fghyd6cqmr.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.012500000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BWj9EfEXM4II49zodxJlRfjsTJNEkIZKuB7liVHHwbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-fghyd6cqmr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.012820512821"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJWozh0KiN+w9qz+2fbA228JeRPtegNogR43rVU4his=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-39EuFBOF8SlVmk6yv+Yp29xE001l3Mw6gsNag0+xNt8="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json.br",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\publish\\vx5bj0t7z5-fghyd6cqmr.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BWj9EfEXM4II49zodxJlRfjsTJNEkIZKuB7liVHHwbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BWj9EfEXM4II49zodxJlRfjsTJNEkIZKuB7liVHHwbg="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json.gz",
+      "AssetFile": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\obj\\Debug\\net9.0-android\\compressed\\vx5bj0t7z5-fghyd6cqmr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJWozh0KiN+w9qz+2fbA228JeRPtegNogR43rVU4his=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 17:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJWozh0KiN+w9qz+2fbA228JeRPtegNogR43rVU4his="
         }
       ]
     },
