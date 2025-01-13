@@ -11,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\wwwroot\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\wwwroot\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\wwwroot\\data\\transactions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\wwwroot\\data\\transactions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\managetransactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|solutionrelative:aarthiksaathi_22069007\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E127996-6A10-4DEE-984D-35ECEE46164A}|AarthikSaathi_22069007\\AarthikSaathi_22069007.csproj|c:\\users\\manis\\desktop\\ad coursework1\\aarthiksaathi\\aarthiksaathi_22069007\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,14 +48,26 @@
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
               "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
               "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAG4AAAAAMzMzMzMbwHMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-05T02:19:40.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "users.json",
+              "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
+              "RelativeDocumentMoniker": "AarthikSaathi_22069007\\wwwroot\\data\\users.json",
+              "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\users.json",
+              "RelativeToolTip": "AarthikSaathi_22069007\\wwwroot\\data\\users.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T02:52:26.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "transactions.json",
               "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
@@ -59,8 +75,7 @@
               "RelativeToolTip": "AarthikSaathi_22069007\\wwwroot\\data\\transactions.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-05T03:21:13.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:21:13.29Z"
             },
             {
               "$type": "Document",
@@ -70,14 +85,14 @@
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
               "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
               "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\AddTransaction.razor",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAADAzMzMzMwqwHAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-05T03:22:44.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ManageTransactions.razor",
               "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
@@ -85,25 +100,24 @@
               "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\ManageTransactions.razor",
               "ViewState": "AgIAAFoAAAAAZmZmZmYOwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-05T03:23:31.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:23:31.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
               "ToolTip": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
               "RelativeToolTip": "AarthikSaathi_22069007\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-05T02:35:55.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\manis\\Desktop\\AD Coursework1\\AarthikSaathi\\AarthikSaathi_22069007\\Models\\User.cs",
               "RelativeDocumentMoniker": "AarthikSaathi_22069007\\Models\\User.cs",

@@ -23,6 +23,12 @@
         </div>
         <div style="margin-top: 20px;">
             <label for="tags">Tags</label>
+            <select @bind="Tags" id="Tags" style="width: 100%; padding: 10px;">
+                <option value="Salary">Salary</option>
+                <option value="Rent">Rent</option>
+                <option value="Fee">Fee</option>
+                <option value="Others">Others</option>
+            </select>
             <input @bind="Tags" type="text" id="tags" placeholder="e.g., groceries, rent" style="width: 100%; padding: 10px;" />
         </div>
         <div style="margin-top: 20px;">

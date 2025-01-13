@@ -206,5 +206,96 @@
     "Notes": "By Me",
     "DueDate": "2025-02-05T18:40:29.7448334+05:45",
     "TransactionDate": "2025-01-05T18:40:29.7448328+05:45"
+  },
+  {
+    "TransactionId": -1762924376,
+    "UserId": 0,
+    "Amount": 1000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Salary"
+    ],
+    "Notes": "Manisha",
+    "DueDate": null,
+    "TransactionDate": "2025-01-06T08:38:45.355211+05:45"
+  },
+  {
+    "TransactionId": 1308663682,
+    "UserId": 0,
+    "Amount": 10000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Salary"
+    ],
+    "Notes": "Test data (credit)",
+    "DueDate": null,
+    "TransactionDate": "2025-01-12T20:46:11.5782158+05:45"
+  },
+  {
+    "TransactionId": 455802931,
+    "UserId": 0,
+    "Amount": 1000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Salary"
+    ],
+    "Notes": "Test Case 4",
+    "DueDate": null,
+    "TransactionDate": "2025-01-13T07:30:45.1067888+05:45"
+  },
+  {
+    "TransactionId": -1776965508,
+    "UserId": 0,
+    "Amount": 5000,
+    "TransactionType": "debt",
+    "TransactionTitle": "",
+    "Tags": [
+      "Fee"
+    ],
+    "Notes": "College Fee",
+    "DueDate": "2025-02-13T07:34:39.8623515+05:45",
+    "TransactionDate": "2025-01-13T07:34:39.8623505+05:45"
+  },
+  {
+    "TransactionId": -132429948,
+    "UserId": 0,
+    "Amount": 5000,
+    "TransactionType": "debt",
+    "TransactionTitle": "",
+    "Tags": [
+      "Fee"
+    ],
+    "Notes": "College Fee",
+    "DueDate": "2025-02-13T07:38:03.2629385+05:45",
+    "TransactionDate": "2025-01-13T07:38:03.2629374+05:45"
+  },
+  {
+    "TransactionId": 1918485245,
+    "UserId": 0,
+    "Amount": 5000,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Rent"
+    ],
+    "Notes": "Negative value test case",
+    "DueDate": null,
+    "TransactionDate": "2025-01-13T07:44:15.7058494+05:45"
+  },
+  {
+    "TransactionId": -1415503081,
+    "UserId": 0,
+    "Amount": 1,
+    "TransactionType": "credit",
+    "TransactionTitle": "",
+    "Tags": [
+      "Dakshina"
+    ],
+    "Notes": "shhh",
+    "DueDate": null,
+    "TransactionDate": "2025-01-13T07:47:58.0823305+05:45"
   }
 ]
