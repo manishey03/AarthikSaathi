@@ -62,19 +62,19 @@
     }
 
     <!-- Transactions Table -->
-    <table style="width: 100%; border-collapse: collapse; margin-top: 20px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-        <thead>
-            <tr style="background: #2D9CFD; color: white;">
-                <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Date</th>
-                <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Tags</th>
-                <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Type</th>
-                <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Amount</th>
-                <th style="padding: 15px; text-align: left;">Notes</th>
-            </tr>
-        </thead>
-        <tbody>
-            @if (FilteredTransactions.Any())
-            {
+    @if (FilteredTransactions.Any())
+    {
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <thead>
+                <tr style="background: #2D9CFD; color: white;">
+                    <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Date</th>
+                    <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Tags</th>
+                    <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Type</th>
+                    <th style="padding: 15px; text-align: left; border-right: 1px solid #e0e0e0;">Amount</th>
+                    <th style="padding: 15px; text-align: left;">Notes</th>
+                </tr>
+            </thead>
+            <tbody>
                 @foreach (var transaction in FilteredTransactions)
                 {
                     <tr style="border-bottom: 1px solid #e0e0e0;">
@@ -85,9 +85,9 @@
                         <td style="padding: 15px;">@transaction.Notes</td>
                     </tr>
                 }
-            }
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    }
 </div>
 
 @code {
@@ -95,7 +95,7 @@
     private List<Transaction> FilteredTransactions { get; set; } = new();
 
     private string FilterType { get; set; } = string.Empty;
-    private string SearchTags { get; set; } = string.Empty; // For tags search
+    private string SearchTags { get; set; } = string.Empty;
     private DateTime? StartDate { get; set; }
     private DateTime? EndDate { get; set; }
     private string SortOrder { get; set; } = "asc";
@@ -109,7 +109,6 @@
             return;
         }
 
-        // Load transactions for the logged-in user
         var allTransactions = await JsonFileHandler.ReadDataAsync<Transaction>("wwwroot/data/transactions.json");
         Transactions = allTransactions.Where(t => t.UserId == UserSession.CurrentUser!.UserId).ToList();
         ApplyFilters();
@@ -121,7 +120,7 @@
 
         if (!string.IsNullOrEmpty(FilterType))
         {
-            query = query.Where(t => t.TransactionType == FilterType);
+            query = query.Where(t => t.TransactionType.Equals(FilterType, StringComparison.OrdinalIgnoreCase));
         }
         if (!string.IsNullOrEmpty(SearchTags))
         {
@@ -139,11 +138,16 @@
         {
             query = query.Where(t => t.TransactionDate <= EndDate.Value);
         }
+        if (SortOrder == "asc")
+        {
+            query = query.OrderBy(t => t.TransactionDate);
+        }
+        else
+        {
+            query = query.OrderByDescending(t => t.TransactionDate);
+        }
 
-        query = SortOrder == "asc" ? query.OrderBy(t => t.TransactionDate) : query.OrderByDescending(t => t.TransactionDate);
         FilteredTransactions = query.ToList();
-
-        // Show a message if no transactions match the filters
         ShowNoTransactionsMessage = !FilteredTransactions.Any();
     }
 }

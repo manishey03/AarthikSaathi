@@ -3,35 +3,40 @@
 @using AarthikSaathi_22069007.Utilities
 @inject NavigationManager NavigationManager
 
-<div style="max-width: 900px; margin: auto; padding: 20px; font-family: Arial, sans-serif;">
+<div style="max-width: 1200px; margin: auto; padding: 20px; font-family: Arial, sans-serif;">
     <h2 style="text-align: center; color: #2D9CFD;">Transaction Dashboard</h2>
 
     <!-- Summary Cards -->
     <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px;">
-        <div style="flex: 1 1 250px; background: #E3F2FD; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <div style="flex: 1 1 300px; background: #E3F2FD; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
             <h3 style="color: #2D9CFD;">Total Inflows</h3>
             <p style="font-size: 24px; font-weight: bold;">$@TotalInflows</p>
         </div>
-        <div style="flex: 1 1 250px; background: #FFEBEE; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <div style="flex: 1 1 300px; background: #FFEBEE; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
             <h3 style="color: #F44336;">Total Outflows</h3>
             <p style="font-size: 24px; font-weight: bold;">$@TotalOutflows</p>
         </div>
-        <div style="flex: 1 1 250px; background: #FFF8E1; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-            <h3 style="color: #FF9800;">Total Debts</h3>
-            <p style="font-size: 24px; font-weight: bold;">$@TotalDebts</p>
+        <div style="flex: 1 1 300px; background: #FFF8E1; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #FF9800;">Remaining Debts</h3>
+            <p style="font-size: 24px; font-weight: bold;">$@RemainingDebts</p>
         </div>
-        <div style="flex: 1 1 250px; background: #E8F5E9; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-            <h3 style="color: #4CAF50;">Remaining Balance</h3>
-            <p style="font-size: 24px; font-weight: bold;">$@RemainingCredit</p>
+        <div style="flex: 1 1 300px; background: #E8F5E9; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #4CAF50;">Cleared Debts</h3>
+            <p style="font-size: 24px; font-weight: bold;">$@ClearedDebts</p>
         </div>
-        <div style="flex: 1 1 250px; background: #E0F7FA; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <div style="flex: 1 1 300px; background: #E0F7FA; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
             <h3 style="color: #00796B;">Total Transactions</h3>
             <p style="font-size: 24px; font-weight: bold;">@TotalTransactions</p>
         </div>
+        <div style="flex: 1 1 300px; background: #D1C4E9; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #673AB7;">Remaining Credit</h3>
+            <p style="font-size: 24px; font-weight: bold;">$@RemainingCredit</p>
+        </div>
     </div>
-    <!-- Top Transactions -->
+
+    <!-- Highest and Lowest Transactions Section -->
     <div style="margin-top: 40px;">
-        <h3 style="color: #2D9CFD;">Top Transactions</h3>
+        <h3 style="color: #2D9CFD;">Highest and Lowest Transactions</h3>
         <ul style="list-style: none; padding: 0;">
             <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FAFAFA;">
                 Highest Inflow: $@HighestInflow
@@ -55,43 +60,51 @@
     </div>
 
     <!-- Clear Debt Section -->
-<div style="margin-top: 40px;">
-    <h3 style="color: #F44336;">Clear Debts</h3>
-    @if (PendingDebts.Any())
-    {
-        <ul style="list-style: none; padding: 0;">
-            @foreach (var debt in PendingDebts)
-            {
-                <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FFEBEE;">
-                    <span>$@debt.Amount (Due: @debt.DueDate?.ToString("yyyy-MM-dd"))</span>
-                    <button @onclick="() => ClearDebt(debt)" style="margin-left: 10px; padding: 5px 10px; background: #4CAF50; color: white; border: none; border-radius: 4px;">Clear</button>
-                </li>
-            }
-        </ul>
-    }
-    else
-    {
-        <p style="text-align: center; color: #4CAF50;">No pending debts.</p>
-    }
-</div>
-
+    <div style="margin-top: 40px;">
+        <h3 style="color: #F44336;">Clear Debts</h3>
+        @if (PendingDebts.Any())
+        {
+                <ul style="list-style: none; padding: 0;">
+                @foreach (var debt in PendingDebts)
+                {
+                            <li style="padding: 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 10px; background: #FFEBEE;">
+                                <span>$@debt.Amount (Due: @debt.DueDate?.ToString("yyyy-MM-dd"))</span>
+                                <button @onclick="() => ClearDebt(debt)" 
+                                        style="margin-left: 10px; padding: 5px 10px; background: #4CAF50; color: white; border: none; border-radius: 4px;" 
+                                        disabled="@((RemainingCredit < debt.Amount) ? true : false)">
+                                    Clear
+                                </button>
+                        @if (RemainingCredit < debt.Amount)
+                        {
+                                        <span style="color: red; margin-left: 10px;">Insufficient Balance</span>
+                        }
+                            </li>
+                }
+                </ul>
+        }
+        else
+        {
+                <p style="text-align: center; color: #4CAF50;">No pending debts.</p>
+        }
+    </div>
 </div>
 
 @code {
     private decimal TotalInflows { get; set; }
     private decimal TotalOutflows { get; set; }
-    private decimal TotalDebts { get; set; }
+    private decimal RemainingDebts { get; set; }
+    private decimal ClearedDebts { get; set; }
     private decimal RemainingCredit { get; set; }
-    private decimal HighestInflow { get; set; }
     private int TotalTransactions { get; set; }
+    private decimal HighestInflow { get; set; }
     private decimal LowestInflow { get; set; }
     private decimal HighestOutflow { get; set; }
     private decimal LowestOutflow { get; set; }
     private decimal HighestDebt { get; set; }
     private decimal LowestDebt { get; set; }
 
-
     private List<Transaction> PendingDebts { get; set; } = new();
+    private Dictionary<int, decimal> ClearedDebtOriginalAmounts { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -111,9 +124,13 @@
 
         TotalInflows = userTransactions.Where(t => t.TransactionType == "credit").Sum(t => t.Amount);
         TotalOutflows = userTransactions.Where(t => t.TransactionType == "debit").Sum(t => t.Amount);
-        TotalDebts = userTransactions.Where(t => t.TransactionType == "debt" && t.Amount > 0).Sum(t => t.Amount);
+        RemainingDebts = userTransactions.Where(t => t.TransactionType == "debt" && t.Amount > 0).Sum(t => t.Amount);
+
+        ClearedDebts = ClearedDebtOriginalAmounts.Values.Sum();
+
         RemainingCredit = TotalInflows - TotalOutflows;
         TotalTransactions = userTransactions.Count;
+
         PendingDebts = userTransactions.Where(t => t.TransactionType == "debt" && t.Amount > 0).ToList();
 
         HighestInflow = userTransactions.Where(t => t.TransactionType == "credit").DefaultIfEmpty(new Transaction { Amount = 0 }).Max(t => t.Amount);
@@ -122,16 +139,20 @@
         HighestOutflow = userTransactions.Where(t => t.TransactionType == "debit").DefaultIfEmpty(new Transaction { Amount = 0 }).Max(t => t.Amount);
         LowestOutflow = userTransactions.Where(t => t.TransactionType == "debit").DefaultIfEmpty(new Transaction { Amount = 0 }).Min(t => t.Amount);
 
-        HighestDebt = userTransactions.Where(t => t.TransactionType == "debt").DefaultIfEmpty(new Transaction { Amount = 0 }).Max(t => t.Amount);
-        LowestDebt = userTransactions.Where(t => t.TransactionType == "debt").DefaultIfEmpty(new Transaction { Amount = 0 }).Min(t => t.Amount);
+        HighestDebt = PendingDebts.DefaultIfEmpty(new Transaction { Amount = 0 }).Max(t => t.Amount);
+        LowestDebt = PendingDebts.DefaultIfEmpty(new Transaction { Amount = 0 }).Min(t => t.Amount);
     }
 
     private async Task ClearDebt(Transaction debt)
     {
-        // Read all transactions
+        if (RemainingCredit < debt.Amount)
+        {
+            Console.WriteLine("Insufficient balance to clear this debt.");
+            return;
+        }
+
         var allTransactions = await JsonFileHandler.ReadDataAsync<Transaction>("wwwroot/data/transactions.json");
 
-        // Find a matching inflow that can cover the debt
         var inflow = allTransactions.FirstOrDefault(t =>
             t.TransactionType == "credit" &&
             t.UserId == UserSession.CurrentUser!.UserId &&
@@ -139,33 +160,25 @@
 
         if (inflow != null)
         {
-            // Adjust inflow and outflow values
             inflow.Amount -= debt.Amount;
             TotalOutflows += debt.Amount;
-            TotalDebts -= debt.Amount;
+            RemainingDebts -= debt.Amount;
             RemainingCredit -= debt.Amount;
 
-            // Update the debt transaction
             var debtTransaction = allTransactions.FirstOrDefault(t => t.TransactionId == debt.TransactionId);
             if (debtTransaction != null)
             {
-                debtTransaction.Amount = 0; // Mark the debt as cleared
+                if (!ClearedDebtOriginalAmounts.ContainsKey(debtTransaction.TransactionId))
+                {
+                    ClearedDebtOriginalAmounts[debtTransaction.TransactionId] = debtTransaction.Amount;
+                }
+
+                debtTransaction.Amount = 0;
             }
 
-            // Save updated transactions to the JSON file
             await JsonFileHandler.WriteDataAsync("wwwroot/data/transactions.json", allTransactions);
-
-            // Reload data to refresh the UI
             await LoadData();
-
-            // Force UI refresh
             StateHasChanged();
         }
-        else
-        {
-            // If no inflow can cover the debt, show a message
-            Console.WriteLine("Insufficient credit to clear this debt.");
-        }
     }
-
 }
